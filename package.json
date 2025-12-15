@@ -1,7 +1,11 @@
 {
+  "name": "sim800l-proxy-api",
+  "version": "1.0.0",
+  "description": "Proxy para IoT SIM800L acessar Google Sheets via Heroku HTTP (porta 80)",
+  "main": "index.js",
   "dependencies": {
-    "node-fetch": "^2.6.1",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
   },
   "scripts": {
     "start": "node index.js"

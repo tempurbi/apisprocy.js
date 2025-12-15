@@ -1,7 +1,7 @@
 // api/proxy.js (A sintaxe deve ser similar a esta para o Vercel)
 const fetch = require('node-fetch'); // Necessário dependendo da configuração
 
-const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzSgZAjiRA7FWbWW4lDpFtZRH_ERPNPW1E_AP_Frz9407Wp38i0IVFqtop6Pwk152Ii/exec';
+const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwpnbHFEBy_Yl04Oy2_VwnW6A88b5bLSzSxBih6twaulzs6r0itbFZ94KVnSrE3v885/exec';
 
 module.exports = async (req, res) => {
   try {

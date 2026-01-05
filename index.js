@@ -7,7 +7,7 @@ const app = express();
 const port = process.env.PORT || 3000; 
 
 
-const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwpnbHFEBy_Yl04Oy2_VwnW6A88b5bLSzSxBih6twaulzs6r0itbFZ94KVnSrE3v885/exec';
+const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbydHw-YkeUG0LpxnEUZck9sHMwPYjvWhZARaBQVAFZhjGNyjrTnSy2VQgnR-ABT_qqZ/exec';
 
 
 app.get('/api/proxy', async (req, res) => {
